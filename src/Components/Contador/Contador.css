@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contador{
+    background-color: rgb(114, 9, 183);
+    border-radius: 20px;
+    width: 30%;
+    height: 50vh;
+    border: solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+
+.numero{
+    font-family: 'Martian Mono', monospace;
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+    background-color: rgb(67, 97, 238);
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+
+.boxButton{
+    width: 60%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid white; */
+}
+
+#btn1 {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #F72585;
+    padding: 5px 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 15px 0px 15px 15px;
+    transition : 0ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+        
+#btn1:hover{
+    transition : 0ms;
+    padding: 10px 21px;
+    transform : translateY(-6px);
+    background-color: #4cc9f0;
+    color: #7209B7;
+    border: none;
+}
+
+#btn2{
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #F72585;
+    padding: 5px 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 0px 15px 15px;
+    transition : 0ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#btn2:hover{
+    transition : 0ms;
+    padding: 10px 21px;
+    transform : translateY(-6px);
+    background-color: #4cc9f0;
+    color: #7209B7;
+    border: none;
+}
+
+#btn3{
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #F72585;
+    padding: 5px 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 15px;
+    transition : 0ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#btn3:hover{
+    transition : 0ms;
+    padding: 10px 21px;
+    transform : translateY(-0px);
+    background-color: #4cc9f0;
+    color: #7209B7;
+    border: none;
+}
